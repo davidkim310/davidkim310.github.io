@@ -111,6 +111,62 @@
 .navbar a {
     color: white !important;
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 20px;
+}
+.leftMenu {
+  width: 12%;
+  height:100%;
+  position: absolute;
+  background-color: #EBEBEB;
+  font-size: 12px;
+  padding-top: 2vh;
+  border-right: 1px solid #d3d3d3;
+}
+.details {
+    color: black;
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+.heading {
+    position: relative;
+}
+.heading:after {
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+    top: 40%;
+    left: 0%;
+    border-bottom: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+    /* border-right: 1px solid grey; */
+    margin-left: -9px;
+    content: '';
+    transform: rotate(45deg);
+    margin-top: -.5vw;
+    background: #ffffff;
+}
+.icons {
+  width: 1.2vw;
+}
+.leftMenuContent {
+    text-align: left;
+    margin-left: 1vw
+}
+.panel-title {
+    color: #5681AE !important;
+}
+.attachment {
+    width: 100%;
+}
+.buttons {
+    text-align: center;
+    border-radius: 4px;
+}
+
 .footer {
     position: fixed;
     right: 0;
@@ -127,41 +183,7 @@
 .glyphicon.glyphicon-pencil {
       color: #5681AE
 }
-  html, body {
-      height: 100%;
-      margin: 0;
-      font-size: 20px;
-  }
-  .leftMenu {
-    width: 12%;
-    height:100%;
-    position: absolute;
-    background-color: #EBEBEB;
-    font-size: 12px;
-    padding-top: 1vh;
-  }
-  .details {
-      color: black;
-      margin-top: 1vh;
-      margin-left: 1vw;
-  }
-  .icons {
-    width: 1.2vw;
-  }
-  .leftMenuContent {
-      text-align: left;
-      margin-left: 1vw
-  }
-  .panel-title {
-      color: #5681AE !important;
-  }
-  .attachment {
-      width: 100%;
-  }
-  .buttons {
-      text-align: center;
-      border-radius: 4px;
-  }
+ 
   .hr1 {
     display: block;
     margin-top: 1em !important;
