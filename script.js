@@ -1,4 +1,4 @@
-
+//code for masonry library
   $(document).ready(function() {
     // all custom jQuery will go here
     $('.grid').masonry({
