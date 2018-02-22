@@ -1,0 +1,260 @@
+* { box-sizing: border-box; font-family: sans-serif; }
+
+/* ---- grid ---- */
+
+.grid {
+  max-width: 1200px;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 20%;
+}
+
+.grid-item {
+  height: 120px;
+  float: left;
+  border-radius: 5px;
+  margin-top: 1vh !important;
+}
+
+.grid-item--width1 { width: 40%; }
+.grid-item--width2 { width: 40%; }
+.grid-item--width3 { width: 20%; }
+.grid-item--width6 { width: 80%; }
+
+.grid-item--height1 { height: 18vh;}
+.grid-item--height2 { height: 14vh; }
+.grid-item--height3 { height: 29vh; }
+.grid-item--height4 { height: 20vh; }
+.grid-item--height7 { height: 49vh; }
+
+/* action menu */
+/* Dropdown Button */
+.dropbtn {
+    font-size: 16px;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #4C76A4;
+  color: white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 15vw;
+    margin-left: -7.5vw;
+    z-index: 1;
+    background: white;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    border: 1px solid #5681AE;
+    padding: .5vw;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #5681AE;
+}
+.searchBtn {
+    background: #5681AE;
+    border: none;
+    border-radius: 4px;
+}
+#searchDrop {
+    margin-left: 0 !important;
+    min-width: 18vw;
+}
+.dropdown-content a {
+    color: black;
+    border: 1px solid #5681AE;
+    padding: .5vw;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* navbar */
+.navbar {
+    background-color: #5681AE !important;
+    margin-bottom: 0 !important;
+  }
+.navbar a {
+    color: white !important;
+}
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
+.glyphicon.glyphicon-cog {
+    font-size: 20px;
+    padding: 0;
+}
+.glyphicon.glyphicon-pencil {
+      color: #5681AE
+}
+  html, body {
+      height: 100%;
+      margin: 0;
+      font-size: 20px;
+  }
+  .leftMenu {
+    width: 12%;
+    height:100%;
+    position: absolute;
+    /* outline: 1px solid grey; */
+    background-color: #EBEBEB;
+    font-size: 12px;
+    padding-top: 1vh;
+  }
+  .details {
+      color: black;
+      margin-top: 1vh;
+      margin-left: 1vw;
+  }
+  .icons {
+    width: 1.2vw;
+  }
+  .leftMenuContent {
+      text-align: left;
+      margin-left: 1vw
+  }
+  .panel-title {
+      color: #5681AE !important;
+  }
+  .attachment {
+      width: 100%;
+  }
+  .buttons {
+      text-align: center;
+      border-radius: 4px;
+  }
+  .hr1 {
+    display: block;
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width:90%;
+    border-top: 1px solid grey !important;
+  }
+  hr {
+      margin-top: 1vh !important;
+      margin-bottom: 1vh !important;
+  }
+  .rightContent {
+      width: 88%;
+      height: auto;
+      /* outline: 1px solid grey; */
+      position: absolute;
+      right:0;
+      background: white;   
+  }
+  .created {
+      font-size: 9px;
+  }
+  .actionMenu {
+      float: right;
+  }
+  .panel {
+    margin: .5vw !important;
+  }
+  .row {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      margin-top: 1vh;
+  }
+  textarea {
+      width: 100%;
+      height: auto;
+  }
+  .commentBtn {
+      float: right;
+      margin-top: .5vh;
+  }
+  .map {
+      width: 100%
+  }
+  .searchInput {
+      float: right;
+  }
+  #searchDrop {
+      border-radius: 5px;
+  }
+  .server {
+    float: right;
+  }
+  #logo {
+    width: 2vw;
+    /* margin-top: -1vh; */
+  }
+  #profile {
+    width: 2vw;
+    border: 1px solid white;
+  }
+
+ 
+/* SEARCH DROPDOWN CONTENT */
+.columnSearch {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 18vh; 
+    background-color: #E8E8E8;
+}
+.rowSearch {
+  width: 18vw;
+}
+.rowSearch:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.input {
+  margin-top: 1.5vh;
+}
+.inputSearch {
+  width: 8vw;
+  margin-top: 1vh
+}
+button {
+    border-radius:4px;
+    background-color: #F4F3F4;
+}

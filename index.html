@@ -1,0 +1,267 @@
+<html>
+<title>Citysourced</title>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+</head>
+<nav class='navbar navbar-default'>
+    <div class='container-fluid'>
+        <div class='navbar-header'>
+            <a class='navbar-brand' href="#">
+                <img id='logo' src="https://i.imgur.com/3BoKY9S.png" alt="citysourced logo">
+            </a>
+        </div>
+        <ul class='nav navbar-nav' id="navbar">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li class='dropdown'>
+                <a class='dropdown-toggle' href="#">Applications
+                    <span class='caret'></span>
+                </a>
+            </li>
+            <li class='dropdown'>
+                <a class='dropdown-toggle' href="#">Metrics
+                    <span class='caret'></span>
+                </a>
+            </li>
+            <li class='dropdown'>
+                <a class='dropdown-toggle' href="#">Widgets
+                    <span class='caret'></span>
+                </a>
+            </li>
+            <li class='dropdown'>
+                <a class='dropdown-toggle' data-toggle="dropdown" href="#">
+                    <span class="glyphicon glyphicon-search"></span>
+                    <button class="dropbtn searchBtn">Search</button>
+                    <span class='caret'></span>
+                </a>
+                <div class="dropdown-content" id="searchDrop">
+                    
+                        <div class="rowSearch">
+                            <div class="columnSearch">
+                                <div class="input">CitySourced ID: </div>
+                                <div class="input">Vendor ID: </div>
+                                <div class="input">Street Name: </div>
+                            </div>
+                            <div class="columnSearch">
+                                <input type="text" class="inputSearch">
+                                <input type="text" class="inputSearch">
+                                <input type="text" class="inputSearch">
+                                <button class="inputSearch">Search</button>
+                            </div>
+                        </div>
+                   
+
+                </div>
+            </li>
+        </ul>
+        <ul class='nav navbar-nav navbar-right'>
+            <li>
+                <a href="#">
+                    <span class='glyphicon glyphicon-cog'></span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img id='profile' src="https://i.imgur.com/SP7f9ee.jpg" alt="profile">
+                    <span class='caret'></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class='leftMenu'>
+    <a class="details" href="#">
+        <strong>Service Request Details</strong>
+    </a>
+    <hr class='hr1'>
+    <div class="leftMenuContent">
+        <p>Private Notes</p>
+        <p>Additional Data</p>
+        <p>Nearby Requests</p>
+        <p>Event Logs</p>
+    </div>
+</div>
+
+<body>
+    <div class='rightContent'>
+        <div class='row topInfo'>
+            <div class="col-xs-10">
+                <h4 class="reportId">
+                    <strong>Report ID# 99418:</strong> Light Pole Damaged or Light Out
+                    <span class="glyphicon glyphicon-pencil"></span>
+                </h4>
+                <div class="created">
+                    <span>Created: 01/28/2014 @ 05:10 PM PST </span>
+                    <span>
+                        <strong> Last Updated: 01/28/2014 @ 05:11PM PST</strong>
+                    </span>
+                </div>
+            </div>
+            <div class="col-xs-2">
+                <div class="actionMenu">
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <span class="glyphicon glyphicon-share actBtn"></span> Action Menu</button>
+                        <div class="dropdown-content">
+                            <a href="#">
+                                <img class="icons" src="https://image.flaticon.com/icons/svg/70/70388.svg" alt=""> Delete</a>
+                            <a href="#">
+                                <img class="icons" src="https://image.flaticon.com/icons/svg/59/59965.svg" alt=""> Re-Email</a>
+                            <a href="#">
+                                <img class="icons" src="https://i.imgur.com/eiNiMuQ.png" alt=""> Save as PDF</a>
+                            <a href="#">
+                                <img class="icons" src="http://simpleicon.com/wp-content/uploads/printer-7.png" alt=""> Print</a>
+                            <a href="#">
+                                <img class="icons" src="https://d30y9cdsu7xlg0.cloudfront.net/png/932-200.png" alt=""> View Public Url</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="grid-sizer"></div>
+            <div class="grid-item grid-item--width1 grid-item--height1">
+                <div class="panel panel-default">
+                    <header class="panel-heading">
+                        <h5 class="panel-title">Assignment & Status</h5>
+                    </header>
+                    <div class="panel-body">
+                        <div>
+                            Assigned to:
+                            <strong>Unassigned </strong>
+                            <span class="glyphicon glyphicon-pencil"></span>
+                        </div>
+                        <hr>
+                        <div>
+                            <p>Current Status:
+                                <strong>Received </strong>
+                                <span class="glyphicon glyphicon-pencil"></span>
+                            </p>
+                            <p>Status Last Updated By:
+                                <u>Miami Beach, FL</u>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item grid-item--width2 grid-item--height2">
+                <div class="panel panel-default">
+                    <header class="panel-heading">
+                        <h5 class="panel-title">Report Details</h5>
+                    </header>
+                    <div class="panel-body">
+                        <div>Privacy: Public [
+                            <u>Make Private</u> ]</div>
+                        <hr>
+                        <div>Description: street light is out. Very dark dangerous crossing</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item grid-item--height3 grid-item--width3">
+                <div class="panel panel-default">
+                    <header class="panel-heading">
+                        <h5 class="panel-title">Attachments</h5>
+                    </header>
+                    <div class="panel-body">
+                        <img class="attachment" src="https://i.imgur.com/VKbSe3g.png" alt="attachment">
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item grid-item--width2 grid-item--height2">
+                <div class="panel panel-default">
+                    <header class="panel-heading">
+                        <h5 class="panel-title">Integration Details</h5>
+                    </header>
+                    <div class="panel-body">
+                        <div>WebQa Ticket ID: W016454-012814</div>
+                        <hr>
+                        <div class="buttons">
+                            <button>POST Issue</button>
+                            <button>GET Update</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item grid-item--width1 grid-item--height4">
+                <div class="panel panel-default">
+                    <header class="panel-heading">
+                        <h5 class="panel-title">Author & Device</h5>
+                    </header>
+                    <div class="panel-body">
+                        <div>
+                            <strong>Susan Lipman</strong>
+                            <p>
+                                <a href="mailto:susan@susanlipman.com">susan@susanlipman.com</a>
+                            </p>
+                            <p>Tel: Unknown</p>
+                        </div>
+                        <hr>
+                        <div>
+                            <p>Submitted On: Apple IPhone 4 (CDMA)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item grid-item--width6 grid-item--height4">
+                <div class="panel panel-default">
+                    <header class="panel-heading">
+                        <h5 class="panel-title">Public Comments</h5>
+                    </header>
+                    <div class="panel-body">
+                        <div>
+                            <strong>Miami Beach FL </strong>
+                            <span class='commentDate'>01/28/2014 @ 05:10 PM PST</span>
+                        </div>
+                        <hr>
+                        <form>
+                            <textarea rows="3"></textarea>
+                            <button class="commentBtn" type="submit">Add Comment</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item grid-item--width3 grid-item--height7">
+                <div class="panel panel-default">
+                    <header class="panel-heading">
+                        <h4 class="panel-title">Location Information</h4>
+                    </header>
+                    <div class="panel-body">
+                        <div>
+                            <img class="map" src="https://i.imgur.com/4DBmvWw.png" alt="map">
+                        </div>
+                        <hr>
+                        <div class="address">
+                            <p>Nearest Address:</p>
+                            <p>1700 West Avenue, Miami Beach, FL 33139, USA</p>
+                        </div>
+                        <hr>
+                        <div class="coordinates">
+                            <p>Coordinates: 25.792816, -80.142609</p>
+                            <p> Compass Heading</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+<div class="footer">
+    <span class="copyright">Copyright © 2014 CitySourced, Inc. All Rights Reserved</span>
+    <span class="server">
+        Server Name: CS-PRD-WEB01
+    </span>
+</div>
+
+</html>
