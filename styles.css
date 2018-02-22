@@ -136,7 +136,6 @@
     width: 12%;
     height:100%;
     position: absolute;
-    /* outline: 1px solid grey; */
     background-color: #EBEBEB;
     font-size: 12px;
     padding-top: 1vh;
@@ -181,7 +180,6 @@
   .rightContent {
       width: 88%;
       height: auto;
-      /* outline: 1px solid grey; */
       position: absolute;
       right:0;
       background: white;   
@@ -222,7 +220,6 @@
   }
   #logo {
     width: 2vw;
-    /* margin-top: -1vh; */
   }
   #profile {
     width: 2vw;
