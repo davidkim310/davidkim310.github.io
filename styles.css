@@ -101,7 +101,8 @@ hr {
     width: 100%
 }
 .panel {
-    margin: .5vw !important;
+    margin-top: 2vh !important;
+    /* margin: .5vw !important; */
 }
 .panel-title {
     color: #5681AE !important;
