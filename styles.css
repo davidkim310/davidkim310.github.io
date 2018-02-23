@@ -17,6 +17,10 @@ html, body {
     text-align: center;
     border-radius: 4px;
 }
+.card {
+    margin-top: 62px;
+    margin-left: 1vw;
+}
 .commentBtn {
     float: right;
     margin-top: .5vh;
@@ -164,7 +168,8 @@ textarea {
     height: 120px;
     float: left;
     border-radius: 5px;
-    margin-top: 1vh !important;
+    margin-top: 2vh !important;
+    margin-bottom: 5vh !important;
 }
 
 .grid-item--width1 { width: 40%; }
