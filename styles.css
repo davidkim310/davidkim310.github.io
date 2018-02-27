@@ -4,7 +4,6 @@ html, body {
     margin: 0;
     font-size: 20px;
 }
-
  
  /* NAVBAR CSS */
 .nav {
@@ -60,61 +59,61 @@ html, body {
   }
   
   
-  @media only screen and (max-width: 662px) {
-    .heading:after {
-        display: none;
-    }
-    .dropdown-content {
-        display: none !important;
-    }
-    label {
-      display: block !important;
-      cursor: pointer;
-    }
-    .menu {
-      text-align: center;
-      width: 100%;
-      display: none;
-    }
-    .menu a {
-      display: block;
-      border-bottom: 1px solid #eaeaeb;
-      margin: 0;
-    }
-    #toggle:checked + .menu {
-      display: block;
-    }
-    #logo {
-      display: none;
-    }
-    #settings {
-      display: initial;
-    }
-    #profile {
-      width: 9vw !important;
-    }
-    #prof {
-      display: initial;
-    }
-    .caret {
-      display: none;
-    }
-    .leftNav {
-        float: none !important;
-    }
-    .rightNav {
-        float: none !important;
-    }
-    #mobileLogo {
-        display: initial;
-        float: left;
-        width: 6vw;
-        padding: 3vh 0 0 1vw;
-    }
-    .leftMenu {
-        display: none;
-    }
-  }
+@media only screen and (max-width: 662px) {
+.heading:after {
+    display: none;
+}
+.dropdown-content {
+    display: none !important;
+}
+label {
+    display: block !important;
+    cursor: pointer;
+}
+.menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+.menu a {
+    display: block;
+    border-bottom: 1px solid #eaeaeb;
+    margin: 0;
+}
+#toggle:checked + .menu {
+    display: block;
+}
+#logo {
+    display: none;
+}
+#settings {
+    display: initial;
+}
+#profile {
+    width: 9vw !important;
+}
+#prof {
+    display: initial;
+}
+.caret {
+    display: none;
+}
+.leftNav {
+    float: none !important;
+}
+.rightNav {
+    float: none !important;
+}
+#mobileLogo {
+    display: initial;
+    float: left;
+    width: 6vw;
+    padding: 3vh 0 0 1vw;
+}
+.leftMenu {
+    display: none;
+}
+}
     /* NAVBAR DROPDOWN CSS   */
 .dropbtn {
     background-color: #5681AE;
@@ -336,7 +335,6 @@ hr {
 }
 .panel {
     margin-top: 2vh !important;
-    /* margin: .5vw !important; */
 }
 .panel-title {
     color: #5681AE !important;
