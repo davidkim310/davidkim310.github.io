@@ -109,7 +109,7 @@ html, body {
         display: initial;
         float: left;
         width: 6vw;
-        padding: 2vh 0 0 1vw;
+        padding: 3vh 0 0 1vw;
     }
     .leftMenu {
         display: none;
