@@ -261,6 +261,9 @@ hr {
     margin-top: -.5vw;
     background: #ffffff;
 }
+.assignment {
+    margin: 1vw;
+}
 .created {
     font-size: 9px;
 }
