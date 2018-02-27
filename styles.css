@@ -149,7 +149,8 @@ html, body {
 }
 #searchDrop {
     margin-left: 0 !important;
-    min-width: 18vw;
+    min-width: 22vw;
+    border-radius: 5px;
 }
 .columnSearch {
     float: left;
@@ -173,7 +174,7 @@ html, body {
     background: #E8E8E8;
   }
 .rowSearch {
-    width: 20vw;
+    width: 22vw;
 }
 .rowSearch:after {
     content: "";
@@ -192,10 +193,6 @@ html, body {
 button {
     border-radius:4px;
     background-color: #F4F3F4;
-}
-#searchDrop {
-    border-radius: 5px;
-    margin-top: 1vh;
 }
 
 /* LEFT MENU */
