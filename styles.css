@@ -34,9 +34,9 @@ html, body {
     width: 26px;
     float: right;
   }
-  .settingCaret {
+  /* .settingCaret {
       display: none !important;
-  }
+  } */
   .leftNav {
       float: left !important;
   }
@@ -88,9 +88,9 @@ label {
 .searchBtn {
     display: none;
 }
-.settingCaret {
-    display: initial !important;
-}
+/* .settingCaret {
+    display: none !important;
+} */
 #toggle:checked + .menu {
     display: block;
 }
@@ -157,7 +157,7 @@ label {
 }
 .searchBtn {
     background: #5681AE;
-    border: none;
+    border-bottom: none !important;
     border-radius: 4px;
 }
 #searchDrop {
